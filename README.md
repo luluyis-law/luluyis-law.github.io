@@ -2,6 +2,9 @@
 ### Welcome to my github, where I'll be sharing my personal projects and learning experiences.
 
 # Below is my repositories.🍰
+-- OTA 
+-- 嵌入式
+
 
 
 
