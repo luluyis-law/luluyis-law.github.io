@@ -1,3 +1,8 @@
+---
+layout: page
+title: "luluyis's blog"
+---
+
 ## Hi there 👋 I am luluyis.law
 ### Welcome to my github, where I'll be sharing my personal projects and learning experiences.
 

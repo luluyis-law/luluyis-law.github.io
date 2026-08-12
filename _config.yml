@@ -1,0 +1,16 @@
+title: "luluyis's blog"
+email: luluyis.law@gmail.com
+description: >-
+  Welcome to my blog, where I'll be sharing my personal projects and learning experiences.
+  欢迎来到我的github博客网站，我将会分享我的个人工程和学习经历。
+baseurl: ""
+url: "https://luluyis-law.github.io"
+wechat_username: Karl-Derek-Law
+github_username: luluyis-law
+
+remote_theme: JinRudy/JinRudy.github.io
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-toc
+  - jekyll-seo-tag  
