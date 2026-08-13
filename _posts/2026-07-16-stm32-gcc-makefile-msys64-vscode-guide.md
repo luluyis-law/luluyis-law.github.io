@@ -110,7 +110,7 @@ tags: [GitHub,STM32, Makefile, VSCode, MSYS2, 嵌入式开发]
    D:\msys64\mingw64\bin #按照文件路径来说，应该不需要这个，但是OpenOCD的路径在这里，以及有没有其他路径也在这里面我不清楚，如果你使用MSYS2内置的Openocd就一定要加上。
    D:\msys64\usr\bin  # 这个一定要加上
 ```
-   ![环境变量选择路径](/Embedded/assets/images/gcc-makefile-msys64-vscode-guide/环境变量配置.png)
+   ![环境变量选择路径](/assets/images/gcc-makefile-msys64-vscode-guide/环境变量配置.png)
 ### 3.2 ARM GCC 交叉编译工具链
 #### 3.2.1 什么是交叉编译工具链？
 交叉编译工具链，简单来说，就是在一个平台上，编译生成能在另一个完全不同平台上运行的程序所需的整套工具。
@@ -223,7 +223,7 @@ STM32 VS Code Extension（辅助工具）
 - Project Name：my_stm32_project
 - Project Location：选择保存路径
 - Toolchain/IDE：选择 Makefile
-  ![makefile位置](/Embedded/assets/images/gcc-makefile-msys64-vscode-guide/cubemax.png)
+  ![makefile位置](/assets/images/gcc-makefile-msys64-vscode-guide/cubemax.png)
 - 点击 Generate Code，生成工程
 ### 4.2 编译烧录测试
 1. 编译
@@ -321,7 +321,7 @@ flash:
 
 这个文件创立以后
 vscode 打开 `运行与调试` 会出现 
-![debug](/Embedded/assets/images/gcc-makefile-msys64-vscode-guide/debug.png)
+![debug](/assets/images/gcc-makefile-msys64-vscode-guide/debug.png)
 
 这个时候，这个项目环境搭建彻底完成
 
