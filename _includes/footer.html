@@ -5,7 +5,7 @@
           {% for nav in site.navs %}<a href="{{ nav.href }}">{{ nav.label }}</a>{% endfor %}
           <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
         </div>
-        <div>© {{ site.since }}–{{ site.time | date: '%Y' }} {{ site.author }} · {{ site.subtitle }}</div>
+        <div>{{ site.time | date: '%Y' }} {{ site.author }} · {{ site.subtitle }}</div>
       </div>
     </footer>
 </body>

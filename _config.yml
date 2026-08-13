@@ -9,11 +9,14 @@ navs:
     href: /          # 链接地址
     label: 首页       # 显示的文字
   -
-    href: /assets/images/qrcode.png
-    label: 联系我
+    href: https://t.me/luluyis
+    label: telegram
+  -
+    href: /assets/images/wechat.png
+    label: wechat
   -
     href: /about/
-    label: 关于
+    label: 关于我
 
 
 description: >-
