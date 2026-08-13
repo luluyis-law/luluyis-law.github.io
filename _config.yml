@@ -9,14 +9,8 @@ navs:
     href: /          # 链接地址
     label: 首页       # 显示的文字
   -
-    href: /archives/
-    label: 归档
-  -
-    href: /categories/
-    label: 分类
-  -
-    href: /links/
-    label: 友链
+    href: /assets/images/qrcode.png
+    label: 联系我
   -
     href: /about/
     label: 关于
