@@ -9,7 +9,7 @@ title: 首页
   gap: 16px; 
   margin: 20px 0;
 ">
-  <a href="https://luluyis-law.github.io/Embedded/" style="
+  <a href="/Embedded/" style="
     flex: 1;
     min-width: 150px;
     padding: 20px;

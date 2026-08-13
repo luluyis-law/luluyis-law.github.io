@@ -1,16 +1,77 @@
 title: "luluyis's blog"
-email: luluyis.law@gmail.com
+subtitle: "青云流水"
+
+
+
+
+navs:
+  -
+    href: /          # 链接地址
+    label: 首页       # 显示的文字
+  -
+    href: /archives/
+    label: 归档
+  -
+    href: /categories/
+    label: 分类
+  -
+    href: /links/
+    label: 友链
+  -
+    href: /about/
+    label: 关于
+
+
 description: >-
   Welcome to my blog, where I'll be sharing my personal projects and learning experiences.
   欢迎来到我的github博客网站，我将会分享我的个人工程和学习经历。
 baseurl: ""
 url: "https://luluyis-law.github.io"
+
+
+
+author: luluyis                    # 你的名字
+github_username: luluyis-law       # GitHub 用户名
+github_username_url: https://github.com/luluyis-law  # GitHub 主页链接
+location: China                    # 所在地
+email: luluyis.law@gmail.com       # 邮箱
+
 wechat_username: Karl-Derek-Law
-github_username: luluyis-law
+
+keywords: luluyis, blog, embedded, github
+timezone: Asia/Shanghai
+encoding: "utf-8"
+
+repository: luluyis-law/luluyis-law.github.io
+
+
+share:
+    enabled: true  # 关掉了
+
+side_bar_repo:
+    enabled: true   # 开启了
+    limit: 5        # 最多显示5个
+    
+    
+    
+fancybox:
+    enabled: false  # 关掉了
+    
+    
+highlight_theme: github
+    
+    
+qrcode:
+    enabled: true   # 开启了
+    image_alt: luluyis
+
 
 remote_theme: JinRudy/JinRudy.github.io
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-toc
-  - jekyll-seo-tag  
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
