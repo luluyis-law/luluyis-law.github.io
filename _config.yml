@@ -1,8 +1,5 @@
 title: "luluyis's blog"
-subtitle: "青云流水"
-
-
-
+subtitle: "中华人民共和国成立以来的第{{ site.time | date: '%Y' | minus: 1949 }}年"
 
 navs:
   -
@@ -16,7 +13,7 @@ navs:
     label: wechat
   -
     href: /about/
-    label: 关于我
+    label: about
 
 
 description: >-
