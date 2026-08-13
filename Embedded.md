@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Embedded
+permalink: /Embedded/
 ---
 
 ### 最新文章
